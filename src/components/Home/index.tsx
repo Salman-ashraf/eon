@@ -1,3 +1,4 @@
+import DealAnalysisTabs from "../DealAnalysisTabs/DealAnalysisTabs";
 import Header from "../Header/Header";
 import PropertyOfferPage from "../pages/PropertyOfferPage";
 import { Box } from "@mui/material";
@@ -18,6 +19,7 @@ const Home = () => {
     >
       <Header />
       <PropertyOfferPage />
+      <DealAnalysisTabs />
     </Box>
   );
 };
