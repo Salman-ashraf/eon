@@ -45,9 +45,7 @@ const Header = () => {
   return (
     <StyledAppBar position="static">
       <Toolbar sx={{ justifyContent: "space-between" }}>
-        <StyledTypography variant="h1" sx={{ color: "black" }}>
-          Titan
-        </StyledTypography>
+        <StyledTypography variant="h1">Titan</StyledTypography>
         <IconContainer>
           <StyledIconButton aria-label="Home">
             <HomeIcon />
