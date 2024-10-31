@@ -3,7 +3,9 @@ import Avatar from "./components/mui/Avatar";
 import BackArrowIcon from "./components/SVGIcons/BackArrowIcon";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
 import HomeIcon from "./components/SVGIcons/HomeIcon";
+import InfoIcon from "./components/SVGIcons/InfoIcon";
 import NotificationRingIcon from "./components/SVGIcons/NotificationRingIcon";
+import PercentageIcon from "./components/SVGIcons/PercentageIcon";
 
 Builder.registerComponent(BackArrowIcon, {
   name: "BackArrowIcon",
@@ -17,7 +19,7 @@ Builder.registerComponent(HelpIcon, {
       type: "string",
     },
   ],
-  models:['figma-imports']
+  models: ["figma-imports"],
 });
 
 Builder.registerComponent(HomeIcon, {
@@ -42,4 +44,12 @@ Builder.registerComponent(NotificationRingIcon, {
 
 Builder.registerComponent(Avatar, {
   name: "Avatar",
+});
+
+Builder.registerComponent(InfoIcon, {
+  name: "InfoIcon",
+});
+
+Builder.registerComponent(PercentageIcon, {
+  name: "PercentageIcon",
 });
