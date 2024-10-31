@@ -1,0 +1,158 @@
+// paper & background
+$paper: #f7f7f7;
+$white: #ffffff;
+
+// blue
+$blue100: #f5faff;  // lighter than $blue300
+$blue200: #e2f0ff;  // lighter than $blue300
+$blue300: #EFF4FC;
+$blue400: #a0b9e0;  // darker than $blue300
+$blue500: #ADC2EB;
+$blue600: #7f9bbd;  // darker than $blue500
+$blue700: #5C86D7;
+$blue900: #1A3A5E;
+
+// primary
+$primary100: #e0f9e7;  // lighter than $primary300
+$primary200: #b4edc3;  // lighter than $primary300
+$primary300: #81e69a;
+$primary400: #30D158;  // darker than $primary300
+$primary500: #30D158;  // base color
+$primary600: #28a646;  // darker than $primary500
+$primary700: #207e38;  // darker than $primary600
+
+// secondary
+$secondary100: #d8f6fa;  // lighter than $secondary300
+$secondary200: #ade8f2;  // lighter than $secondary300
+$secondary300: #7eddea;
+$secondary400: #60d1e2;  // darker than $secondary300
+$secondary500: #40C8E0;  // base color
+$secondary600: #30a2b3;  // darker than $secondary500
+$secondary700: #227a87;  // darker than $secondary600
+
+// shades
+$shades100: #E3E6E8;
+$shades200: #C1C8CC;
+$shades300: #B6BEC3;
+$shades400: #7d8992;  // darker than $shades300
+$shades500: #505E6E;
+$shades600: #3b4754;  // darker than $shades500
+$shades700: #374352;
+$shades800: #1B2735;
+$shades900: #111922;
+
+// red
+$red100: #ffe6eb;  // lighter than $red300
+$red200: #ffccd4;  // lighter than $red300
+$red300: #FFCCD4;
+$red400: #fea1a9;  // darker than $red300
+$red500: #FE8E9F;
+$red600: #db6b78;  // darker than $red500
+$red700: #D75951;
+
+// yellow
+$yellow100: #fff5d1;  // lighter than $yellow300
+$yellow200: #fce9b3;  // lighter than $yellow300
+$yellow300: #e9c87f;
+$yellow400: #d6aa59;  // darker than $yellow300
+$yellow500: #dba32a;
+$yellow600: #a97c20;  // darker than $yellow500
+$yellow700: #836219;
+
+// green
+$green100: #d6f7e6;  // lighter than $green300
+$green200: #bcefd8;  // lighter than $green300
+$green300: #A7F1D5;
+$green400: #60d1a2;  // darker than $green300
+$green500: #3DC28F;
+$green600: #2d9570;  // darker than $green500
+$green700: #26A474;
+
+// dark
+$dark100: #f7f7f7;
+$dark200: #adadad;
+$dark300: #848484;
+$dark400: #565656;  // darker than $dark300
+$dark500: #323232;
+$dark600: #1e1e1e;
+$dark700: #141414;
+
+:export {
+    // paper & background
+    paper: $paper;
+    white:$white;
+        // primary
+        primary100: $primary100;
+        primary200: $primary200;
+        primary300: $primary300;
+        primary400: $primary400;
+        primary500: $primary500;
+        primary600: $primary600;
+        primary700: $primary700;
+
+        // secondary
+    secondary100: $secondary100;
+    secondary200: $secondary200;
+    secondary300: $secondary300;
+    secondary400: $secondary400;
+    secondary500: $secondary500;
+    secondary600: $secondary600;
+    secondary700: $secondary700;
+
+    // blue
+    blue100: $blue100;
+    blue200: $blue200;
+    blue300: $blue300;
+    blue400: $blue400;
+    blue500: $blue500;
+    blue600: $blue600;
+    blue700: $blue700;
+    blue900: $blue900;
+
+    // shades
+    shades100: $shades100;
+    shades200: $shades200;
+    shades300: $shades300;
+    shades400: $shades400;
+    shades500: $shades500;
+    shades600: $shades600;
+    shades700: $shades700;
+    shades800: $shades800;
+    shades900: $shades900;
+
+    // red
+    red100: $red100;
+    red200: $red200;
+    red300: $red300;
+    red400: $red400;
+    red500: $red500;
+    red600: $red600;
+    red700: $red700;
+
+    // yellow
+    yellow100: $yellow100;
+    yellow200: $yellow200;
+    yellow300: $yellow300;
+    yellow400: $yellow400;
+    yellow500: $yellow500;
+    yellow600: $yellow600;
+    yellow700: $yellow700;
+
+    // green
+    green100: $green100;
+    green200: $green200;
+    green300: $green300;
+    green400: $green400;
+    green500: $green500;
+    green600: $green600;
+    green700: $green700;
+
+    // dark
+    dark100: $dark100;
+    dark200: $dark200;
+    dark300: $dark300;
+    dark400: $dark400;
+    dark500: $dark500;
+    dark600: $dark600;
+    dark700: $dark700;
+}
