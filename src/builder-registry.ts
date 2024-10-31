@@ -1,4 +1,5 @@
 import { Builder } from "@builder.io/react";
+import ArrowUpIcon from "./components/SVGIcons/ArrowUpIcon";
 import Avatar from "./components/mui/Avatar";
 import BackArrowIcon from "./components/SVGIcons/BackArrowIcon";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
@@ -46,10 +47,18 @@ Builder.registerComponent(Avatar, {
   name: "Avatar",
 });
 
+Builder.registerComponent(ArrowUpIcon, {
+  name: "ArrowUpIcon",
+});
+
 Builder.registerComponent(InfoIcon, {
   name: "InfoIcon",
 });
 
 Builder.registerComponent(PercentageIcon, {
   name: "PercentageIcon",
+});
+
+Builder.registerComponent(ArrowUpIcon, {
+  name: "ArrowUpIcon",
 });

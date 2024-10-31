@@ -1,5 +1,6 @@
 import DealAnalysisTabs from "../DealAnalysisTabs/DealAnalysisTabs";
 import Header from "../Header/Header";
+import InternalRateReturn from "../InternalRateReturn/InternalRateReturn";
 import PropertyOfferPage from "../pages/PropertyOfferPage";
 import { Box } from "@mui/material";
 import backgroundImage from "@src/assets/Background-Image.png";
@@ -20,6 +21,7 @@ const Home = () => {
       <Header />
       <PropertyOfferPage />
       <DealAnalysisTabs />
+      <InternalRateReturn value={122121} percentage={3000} />
     </Box>
   );
 };

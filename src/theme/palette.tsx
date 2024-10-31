@@ -58,9 +58,10 @@ const Palette = () => {
         paper: colors.background,
         white: colors.white,
       },
-      // text: {
-      //   primary: colors.dark500,
-      // },
+      text: {
+        primary: colors.dark500,
+        secondary: colors.dark300,
+      },
     },
   });
 };

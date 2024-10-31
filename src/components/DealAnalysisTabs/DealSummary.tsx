@@ -4,7 +4,7 @@
 import React from 'react';
 
 const DealSummary: React.FC = () => {
-  return <div>Deal Summary Content</div>;
+  return <div></div>;
 };
 
 export default DealSummary;
