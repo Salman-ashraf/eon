@@ -4,14 +4,17 @@ import Avatar from "./components/mui/Avatar";
 import BackArrowIcon from "./components/SVGIcons/BackArrowIcon";
 import BathIcon from "./components/SVGIcons/BathIcon";
 import BedIcon from "./components/SVGIcons/BedIcon";
+import ExpandIcon from "./components/SVGIcons/ExpandIcon";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
 import HomeIcon from "./components/SVGIcons/HomeIcon";
 import InfoIcon from "./components/SVGIcons/InfoIcon";
 import InternalRateReturn from "./components/InternalRateReturn/InternalRateReturn";
 import LocationIcon from "./components/SVGIcons/LocationIcon";
+import MinusIcon from "./components/SVGIcons/MinusIcon";
 import NotificationRingIcon from "./components/SVGIcons/NotificationRingIcon";
 import PercentageIcon from "./components/TitanCustomMode/PercentageIcon";
 import PercentageIcon from "./components/SVGIcons/PercentageIcon";
+import PlusIcon from "./components/SVGIcons/PlusIcon";
 import ProfitIcon from "./components/SVGIcons/ProfitIcon";
 import ShareIcon from "./components/SVGIcons/ShareIcon";
 import SqftIcon from "./components/SVGIcons/SqftIcon";
@@ -115,4 +118,16 @@ Builder.registerComponent(StarFilledIcon, {
 
 Builder.registerComponent(PercentageIcon, {
   name: "PercentageIcon",
+});
+
+Builder.registerComponent(ExpandIcon, {
+  name: "ExpandIcon",
+});
+
+Builder.registerComponent(MinusIcon, {
+  name: "MinusIcon",
+});
+
+Builder.registerComponent(PlusIcon, {
+  name: "PlusIcon",
 });

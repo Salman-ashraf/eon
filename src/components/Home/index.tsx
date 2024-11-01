@@ -4,8 +4,8 @@ import PropertyOfferPage from "../pages/PropertyOfferPage";
 import { Box } from "@mui/material";
 import backgroundImage from "@src/assets/Background-Image.png";
 import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
-import BedIcon from "../SVGIcons/BedIcon";
 import PropertyDetails from "../PropertyDetails/PropertyDetails";
+import InfoCardContainer from "../InfoCard/InfoCardContainer";
 // Builder Public API Key set in .env file
 
 const propertyDetails = {
@@ -41,7 +41,7 @@ const Home = () => {
       <DealAnalysisTabs />
       <TrendAnalysis />
       <PropertyDetails {...propertyDetails} />
-      
+      <InfoCardContainer />
     </Box>
   );
 };
