@@ -9,6 +9,8 @@ import ArrowUpIcon from "@src/components/SVGIcons/ArrowUpIcon";
 interface InternalRateReturnProps {
   value: number;
   percentage: number;
+  className: string;
+  title: string;
 }
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
@@ -59,10 +61,12 @@ const Indicator = styled(Box)(({ theme }) => ({
 const InternalRateReturn: React.FC<InternalRateReturnProps> = ({
   value,
   percentage,
+  title,
+  className,
 }) => {
   return (
-    <StyledPaper elevation={0}>
-      <Title variant="body2">Internal Rate Return (IRR)</Title>
+    <StyledPaper elevation={0} className={className}>
+      <Title variant="body2">{title}</Title>
       <Content>
         <Value variant="h4">
           <Box component="span" fontSize={24}>

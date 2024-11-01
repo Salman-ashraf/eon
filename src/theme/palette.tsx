@@ -59,7 +59,7 @@ const Palette = () => {
         white: colors.white,
       },
       text: {
-        primary: colors.dark500,
+        primary: colors.white,
         secondary: colors.dark300,
       },
     },

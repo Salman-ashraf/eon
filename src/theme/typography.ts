@@ -23,7 +23,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
       fontWeight: 500,
       lineHeight: "48px",
     },
-    color: theme.palette.dark.dark,
   },
   h2: {
     [theme.breakpoints.up("md")]: {
@@ -41,7 +40,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
       fontWeight: 500,
       lineHeight: "40px",
     },
-    color: theme.palette.dark.dark,
   },
   h3: {
     [theme.breakpoints.up("md")]: {
@@ -59,7 +57,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
       fontWeight: 500,
       lineHeight: "32px",
     },
-    color: theme.palette.dark.dark,
   },
   h4: {
     [theme.breakpoints.up("md")]: {
@@ -77,7 +74,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
       fontWeight: 500,
       lineHeight: "28px",
     },
-    color: theme.palette.dark.dark,
   },
   // Keep your existing h5 and h6 settings as they are.
   h5: {
@@ -90,7 +86,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
     [theme.breakpoints.down("sm")]: {
       fontSize: "16px",
     },
-    color: theme.palette.dark.dark,
     fontWeight: 600,
   },
   h6: {
@@ -101,7 +96,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
       fontSize: "18px",
     },
     fontWeight: 600,
-    color: theme.palette.dark.dark,
   },
 
   subtitle1: {
@@ -111,7 +105,6 @@ const Typography = (theme: Theme, fontFamily: string): TypographyOptions => ({
   },
   caption: {
     fontSize: "14px",
-    color: theme.palette.dark.dark,
     fontWeight: 400,
   },
   body1: {
