@@ -6,6 +6,7 @@ import backgroundImage from "@src/assets/Background-Image.png";
 import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
 import PropertyDetails from "../PropertyDetails/PropertyDetails";
 import InfoCardContainer from "../InfoCard/InfoCardContainer";
+import Controls from "../Controls/Controls";
 // Builder Public API Key set in .env file
 
 const propertyDetails = {
@@ -22,6 +23,18 @@ const propertyDetails = {
   datePosted: "2024-10-15",
   expectedProfit: 55000,
   profitPercentage: 6.5,
+};
+
+const onZoomIn = () => {
+  console.log("Zooming in on the image");
+};
+
+const onZoomOut = () => {
+  console.log("Zooming out of the image");
+};
+
+const onExpand = () => {
+  console.log("Expanding the image to fullscreen");
 };
 
 const Home = () => {
@@ -42,6 +55,7 @@ const Home = () => {
       <TrendAnalysis />
       <PropertyDetails {...propertyDetails} />
       <InfoCardContainer />
+      <Controls onZoomIn={onZoomIn} onZoomOut={onZoomOut} onExpand={onExpand} />
     </Box>
   );
 };
