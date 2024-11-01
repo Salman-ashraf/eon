@@ -34,6 +34,8 @@ const StyledBox = styled(Box)(({ theme }) => ({
   backdropFilter: "blur(4px)",
   padding: theme.spacing(1.5),
   color: theme.palette.common.white,
+  width: "816px",
+  height: "256px",
 }));
 
 const PropertyName = styled(Typography)(({ theme }) => ({
@@ -62,8 +64,8 @@ const ShareButton = styled(Button)(({ theme }) => ({
 }));
 
 const PropertyFeatures = styled(Grid)(({ theme }) => ({
-  marginTop: theme.spacing(3),
-  marginBottom: theme.spacing(3),
+  marginTop: theme.spacing(1),
+  marginBottom: theme.spacing(2),
 }));
 
 const FeatureIcon = styled(Box)(({ theme }) => ({

@@ -41,6 +41,7 @@ const Home = () => {
       <DealAnalysisTabs />
       <TrendAnalysis />
       <PropertyDetails {...propertyDetails} />
+      
     </Box>
   );
 };

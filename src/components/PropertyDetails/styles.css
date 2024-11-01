@@ -1,0 +1,91 @@
+/* PropertyDetails.css */
+
+.propertyDetails {
+  border-radius: 8px; /* Assuming theme.spacing(1) is 8px */
+  background: linear-gradient(96deg, rgba(35, 51, 71, 0.8) 0%, rgba(30, 44, 60, 0.9) 100%);
+  backdrop-filter: blur(4px);
+  padding: 12px; /* Assuming theme.spacing(1.5) is 12px */
+  color: #ffffff; /* Assuming theme.palette.common.white */
+  font-family: 'Poppins, sans-serif';
+}
+
+.propertyName {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: -0.18px;
+}
+
+.propertyLocation {
+  margin-top: 4px; /* Assuming theme.spacing(0.5) is 4px */
+  font-size: 0.875rem;
+  color: #b0b0b0; /* Assuming theme.palette.grey[400] */
+}
+
+.propertyLocation svg {
+  margin-right: 4px; /* Assuming theme.spacing(0.5) is 4px */
+}
+
+.priceLabel {
+  color: #b0b0b0; /* Assuming theme.palette.grey[400] */
+  font-size: 0.75rem;
+}
+
+.priceValue {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: -0.18px;
+}
+
+.shareButton {
+  color: #b0b0b0; /* Assuming theme.palette.grey[400] */
+  font-size: 0.75rem;
+}
+
+.propertyFeatures {
+  margin-top: 24px; /* Assuming theme.spacing(3) is 24px */
+}
+
+.propertyFeatures svg {
+  margin-right: 8px; /* Assuming theme.spacing(1) is 8px */
+}
+
+.propertyRatings {
+  margin-top: 24px; /* Assuming theme.spacing(3) is 24px */
+}
+
+.profitSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px; /* Assuming theme.spacing(3) is 24px */
+  padding: 4px 12px; /* Assuming theme.spacing(0.5) is 4px and theme.spacing(1.5) is 12px */
+  border-radius: 4px; /* Assuming theme.spacing(0.5) is 4px */
+  background-color: rgba(17, 25, 34, 1);
+}
+
+.profitValue {
+  color: #28a745; /* Assuming theme.palette.success.main */
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: -0.18px;
+}
+
+.profitPercentage {
+  color: #28a745; /* Assuming theme.palette.success.main */
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.profitPercentage svg {
+  margin-right: 4px; /* Assuming theme.spacing(0.5) is 4px */
+}
+
+/* Media Query for responsive design */
+@media (max-width: 991px) {
+  .propertyDetails {
+    max-width: 100%;
+  }
+}
