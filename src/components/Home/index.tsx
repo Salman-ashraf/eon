@@ -4,26 +4,9 @@ import PropertyOfferPage from "../pages/PropertyOfferPage";
 import { Box } from "@mui/material";
 import backgroundImage from "@src/assets/Background-Image.png";
 import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
-import PropertyDetails from "../PropertyDetails/PropertyDetails";
 import InfoCardContainer from "../InfoCard/InfoCardContainer";
 import BuildingInfoRow from "../BuildingInfoRow/BuildingInfoRow";
-import AiChatComponent from "../AiChatModule/AiChatComponent";
-
-const propertyDetails = {
-  propertyName: "Ocean View Apartments",
-  address: "123 Beachfront Ave, Miami, FL 33101",
-  avmPrice: 850000,
-  titanPrice: 830000,
-  beds: 3,
-  baths: 2,
-  sqft: 1500,
-  neighbourhoodRating: 8.5,
-  crimeRate: 3.2,
-  capRate: 5.6,
-  datePosted: "2024-10-15",
-  expectedProfit: 55000,
-  profitPercentage: 6.5,
-};
+import PropertyDetailsMainPage from "../PropertyDetails/PropertyDetailsMainPage";
 
 const Home = () => {
   return (
@@ -40,15 +23,10 @@ const Home = () => {
       <Header />
       <PropertyOfferPage />
       <DealAnalysisTabs />
+      <PropertyDetailsMainPage />
       <TrendAnalysis />
-      <PropertyDetails {...propertyDetails} />
       <InfoCardContainer />
       <BuildingInfoRow />
-      <AiChatComponent
-        onClose={() => {
-          console.log("");
-        }}
-      />
     </Box>
   );
 };
