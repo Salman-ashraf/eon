@@ -5,6 +5,8 @@ import BackArrowIcon from "./components/SVGIcons/BackArrowIcon";
 import BathIcon from "./components/SVGIcons/BathIcon";
 import BedIcon from "./components/SVGIcons/BedIcon";
 import BuildingInfo from "./components/BuildingInfo/BuildingInfo";
+import CheckCircleIcon from "./components/SVGIcons/CheckCircleIcon";
+import CloseIcon from "./components/SVGIcons/CloseIcon";
 import Controls from "./components/Controls/Controls";
 import ExpandIcon from "./components/SVGIcons/ExpandIcon";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
@@ -18,6 +20,8 @@ import PercentageIcon from "./components/TitanCustomMode/PercentageIcon";
 import PercentageIcon from "./components/SVGIcons/PercentageIcon";
 import PlusIcon from "./components/SVGIcons/PlusIcon";
 import ProfitIcon from "./components/SVGIcons/ProfitIcon";
+import RobotAiIcon from "./components/SVGIcons/RobotAiIcon";
+import SendIcon from "./components/SVGIcons/SendIcon";
 import ShareIcon from "./components/SVGIcons/ShareIcon";
 import SqftIcon from "./components/SVGIcons/SqftIcon";
 import StarFilledIcon from "./components/SVGIcons/StarFilledIcon";
@@ -140,4 +144,20 @@ Builder.registerComponent(Controls, {
 
 Builder.registerComponent(BuildingInfo, {
   name: "BuildingInfo",
+});
+
+Builder.registerComponent(CheckCircleIcon, {
+  name: "CheckCircleIcon",
+});
+
+Builder.registerComponent(CloseIcon, {
+  name: "CloseIcon",
+});
+
+Builder.registerComponent(SendIcon, {
+  name: "SendIcon",
+});
+
+Builder.registerComponent(RobotAiIcon, {
+  name: "RobotAiIcon",
 });

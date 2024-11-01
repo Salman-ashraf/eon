@@ -7,6 +7,7 @@ import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
 import PropertyDetails from "../PropertyDetails/PropertyDetails";
 import InfoCardContainer from "../InfoCard/InfoCardContainer";
 import BuildingInfoRow from "../BuildingInfoRow/BuildingInfoRow";
+import AiChatComponent from "../AiChatModule/AiChatComponent";
 
 const propertyDetails = {
   propertyName: "Ocean View Apartments",
@@ -43,6 +44,11 @@ const Home = () => {
       <PropertyDetails {...propertyDetails} />
       <InfoCardContainer />
       <BuildingInfoRow />
+      <AiChatComponent
+        onClose={() => {
+          console.log("");
+        }}
+      />
     </Box>
   );
 };
