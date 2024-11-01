@@ -4,6 +4,8 @@ import Avatar from "./components/mui/Avatar";
 import BackArrowIcon from "./components/SVGIcons/BackArrowIcon";
 import BathIcon from "./components/SVGIcons/BathIcon";
 import BedIcon from "./components/SVGIcons/BedIcon";
+import BuildingInfo from "./components/BuildingInfo/BuildingInfo";
+import Controls from "./components/Controls/Controls";
 import ExpandIcon from "./components/SVGIcons/ExpandIcon";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
 import HomeIcon from "./components/SVGIcons/HomeIcon";
@@ -130,4 +132,12 @@ Builder.registerComponent(MinusIcon, {
 
 Builder.registerComponent(PlusIcon, {
   name: "PlusIcon",
+});
+
+Builder.registerComponent(Controls, {
+  name: "Controls",
+});
+
+Builder.registerComponent(BuildingInfo, {
+  name: "BuildingInfo",
 });
