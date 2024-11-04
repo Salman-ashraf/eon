@@ -19,22 +19,25 @@ const Home = () => {
         backgroundPosition: "center", // Centers the image in the Box
         backgroundColor: "blue", // Fallback color
         minHeight: "100vh",
+        pb: "30px",
       }}
     >
       <Header />
       <PropertyOfferPage />
       <DealAnalysisTabs />
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1, pt: "22px", pl: "14px" }}>
         <Grid container spacing={2}>
-          <Grid size={8}>
+          <Grid size={9.5}>
             <TrendAnalysis />
-            <Box sx={{ display: "flex" }}>
+            <Box
+              sx={{ display: "flex", width: "100%", mt: "18px", gap: "15px" }}
+            >
               <PropertyDetailsMainPage />
               <InfoCardContainer />
             </Box>
             <BuildingInfoRow />
           </Grid>
-          <Grid size={4}>
+          <Grid size={2.5}>
             <AiChatComponent />
           </Grid>
         </Grid>

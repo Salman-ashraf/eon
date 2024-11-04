@@ -66,8 +66,7 @@ const BuildingInfo: React.FC<BuildingInfoProps> = ({
           backdrop-filter: blur(4px);
           padding: 12px;
           font-family: Poppins, sans-serif;
-          max-width: 403px;
-          width:402px;
+    
       
         }
         .building-title {

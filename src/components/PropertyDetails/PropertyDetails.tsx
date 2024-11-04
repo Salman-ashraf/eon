@@ -34,8 +34,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
   backdropFilter: "blur(4px)",
   padding: theme.spacing(1.5),
   color: theme.palette.common.white,
-  width: "816px",
-  height: "256px",
+  width: "100%",
 }));
 
 const PropertyName = styled(Typography)(({ theme }) => ({

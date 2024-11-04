@@ -25,9 +25,7 @@ const TrendAnalysis = () => {
         ))}
       </Grid>
       <style>{`
-        .trend-analysis {
-          padding: 24px;
-        }
+        
         .trend-item {
           min-width: 240px;
           flex: 1;

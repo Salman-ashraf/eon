@@ -4,24 +4,17 @@
 import React, { useState } from "react";
 import { Box, styled } from "@mui/material";
 import ImageCarousel from "@src/components/ImageCarousel/ImageCarousel";
+import ImageWithControls from "../ImageWithControls/ImageWithControls";
 
 const InfoCardContainer = styled(Box)({
   alignSelf: "stretch",
   backdropFilter: "blur(4px)",
   display: "flex",
-  maxWidth: "404px",
+  maxWidth: "390px",
   flexDirection: "column",
   overflow: "hidden",
   justifyContent: "start",
   gap: "var(--spacing-xs, 8px)",
-});
-
-const MainImage = styled("img")({
-  aspectRatio: "2.11",
-  objectFit: "contain",
-  objectPosition: "center",
-  width: "100%",
-  alignSelf: "center",
 });
 
 interface InfoCardProps {
@@ -46,7 +39,8 @@ const InfoCard: React.FC<InfoCardProps> = ({
 
   return (
     <InfoCardContainer>
-      <MainImage src={mainImage.src} alt={mainImage.alt} loading="lazy" />
+      <ImageWithControls imageSrc={mainImage.src} />
+
       <ImageCarousel images={carouselImages} onImageClick={handleImageClick} />
     </InfoCardContainer>
   );

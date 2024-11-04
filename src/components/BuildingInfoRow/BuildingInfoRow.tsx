@@ -46,12 +46,12 @@ const BuildingInfoRow = () => {
           display: flex;
           gap: 12px;
           justify-content: flex-start;
-          flex-wrap: wrap;
+          margin-top:18px;
+          
         }
         .building-info-item {
-          min-width: 240px;
-          flex: 1;
-          flex-basis: 0%;
+     
+          width:100%;
         }
       `}</style>
     </Box>

@@ -62,6 +62,7 @@ const ChatContainer = styled("section")({
   maxWidth: "296px",
   flexDirection: "column",
   overflow: "hidden",
+  height: "100%",
 });
 
 const ChatBody = styled("main")({
