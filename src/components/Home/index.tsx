@@ -7,7 +7,8 @@ import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
 import InfoCardContainer from "../InfoCard/InfoCardContainer";
 import BuildingInfoRow from "../BuildingInfoRow/BuildingInfoRow";
 import PropertyDetailsMainPage from "../PropertyDetails/PropertyDetailsMainPage";
-
+import Grid from "@mui/material/Grid2";
+import AiChatComponent from "../AiChatModule/AiChatComponent";
 const Home = () => {
   return (
     <Box
@@ -23,10 +24,21 @@ const Home = () => {
       <Header />
       <PropertyOfferPage />
       <DealAnalysisTabs />
-      <PropertyDetailsMainPage />
-      <TrendAnalysis />
-      <InfoCardContainer />
-      <BuildingInfoRow />
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2}>
+          <Grid size={8}>
+            <TrendAnalysis />
+            <Box sx={{ display: "flex" }}>
+              <PropertyDetailsMainPage />
+              <InfoCardContainer />
+            </Box>
+            <BuildingInfoRow />
+          </Grid>
+          <Grid size={4}>
+            <AiChatComponent />
+          </Grid>
+        </Grid>
+      </Box>
     </Box>
   );
 };
