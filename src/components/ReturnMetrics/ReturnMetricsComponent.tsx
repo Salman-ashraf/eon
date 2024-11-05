@@ -88,6 +88,7 @@ const ReturnMetricsWrapper = styled("section")(({ theme }) => ({
   backdropFilter: "blur(4px)",
   padding: theme.spacing(1.5),
   fontFamily: "Poppins, sans-serif",
+  width: "100%",
   color: theme.palette.common.white,
   maxWidth: "740px",
   [theme.breakpoints.down("md")]: {

@@ -5,7 +5,7 @@ import ReturnMetricsComponent2 from "@src/components/main3/ReturnMetrics/ReturnM
 
 const Home3 = () => {
   return (
-    <Box>
+    <Box m={4}>
       <ReturnMetricsComponent />
       <Box m={4}>
         <ReturnMetricsComponent2 />

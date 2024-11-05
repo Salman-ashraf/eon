@@ -91,10 +91,11 @@ const AnalysisContainer = styled.section`
     linear-gradient(96deg, rgba(35, 51, 71, 0.8) 0%, rgba(30, 44, 60, 0.9) 100%)
   );
   backdrop-filter: blur(4px);
-  max-width: 480px;
+  width: 100%;
   padding: var(--spacing-s, 12px);
   display: flex;
   flex-direction: column;
+  max-width:480px;
   gap: var(--spacing-m, 16px);
   font-family: Poppins, sans-serif;
 `;
