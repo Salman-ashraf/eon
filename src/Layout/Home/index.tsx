@@ -1,14 +1,14 @@
-import DealAnalysisTabs from "../DealAnalysisTabs/DealAnalysisTabs";
-import Header from "../Header/Header";
-import PropertyOfferPage from "../pages/PropertyOfferPage";
+import DealAnalysisTabs from "../../components/DealAnalysisTabs/DealAnalysisTabs";
+import Header from "../../components/Header/Header";
+import PropertyOfferPage from "../../components/pages/PropertyOfferPage";
 import { Box } from "@mui/material";
 import backgroundImage from "@src/assets/Background-Image.png";
-import TrendAnalysis from "../TrendAnalysis/TrendAnalysis";
-import InfoCardContainer from "../InfoCard/InfoCardContainer";
-import BuildingInfoRow from "../BuildingInfoRow/BuildingInfoRow";
-import PropertyDetailsMainPage from "../PropertyDetails/PropertyDetailsMainPage";
+import TrendAnalysis from "../../components/TrendAnalysis/TrendAnalysis";
+import InfoCardContainer from "../../components/InfoCard/InfoCardContainer";
+import BuildingInfoRow from "../../components/BuildingInfoRow/BuildingInfoRow";
+import PropertyDetailsMainPage from "../../components/PropertyDetails/PropertyDetailsMainPage";
 import Grid from "@mui/material/Grid2";
-import AiChatComponent from "../AiChatModule/AiChatComponent";
+import AiChatComponent from "../../components/AiChatModule/AiChatComponent";
 const Home = () => {
   return (
     <Box

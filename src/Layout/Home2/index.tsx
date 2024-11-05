@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 // import DealAnalysisDetails from "../DealAnalysis/DealAnalysisDetails";
 import backgroundImage from "@src/assets/Background-Image.png";
-import DealAnalysisDetails from "../main/DealAnalysis/DealAnalysisDetails";
+import DealAnalysisDetails from "../../components/main/DealAnalysis/DealAnalysisDetails";
 
 const Home2 = () => {
   return (

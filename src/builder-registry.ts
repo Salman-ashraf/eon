@@ -33,11 +33,35 @@ import SqftIcon from "./components/SVGIcons/SqftIcon";
 import StarFilledIcon from "./components/SVGIcons/StarFilledIcon";
 import StarIcon from "./components/SVGIcons/StarIcon";
 import TrendAnalysis from "./components/TrendAnalysis/TrendAnalysis";
+import theme1 from "@src/theme/_theme1.module.scss";
+const colors = theme1;
 
 Builder.registerComponent(BackArrowIcon, {
   name: "BackArrowIcon",
 });
 
+Builder.register("editor.settings", {
+  designTokens: {
+    spacing: [
+      { name: "Tiny", value: "5px" },
+      { name: "Small", value: "10px" },
+      { name: "Large", value: "var(--space-large, 20px)" },
+    ],
+    colors: [
+      { name: "Primary", value: colors.primary500 },
+      { name: "Secondary", value: colors.primary500 },
+      { name: "Accent", value: colors.secondary400 },
+      { name: "Error", value: "var(--error-color, #ff5252)" },
+      { name: "Warning", value: "var(--warning-color, #ff9800)" },
+      { name: "Info", value: "var(--info-color, #2196f3)" },
+      { name: "Success", value: "var(--success-color, #4caf50)" },
+      { name: "Text Primary", value: colors.white },
+      { name: "Text Secondary", value: colors.dark300 },
+    ],
+
+    // other design tokens
+  },
+});
 Builder.registerComponent(HelpIcon, {
   name: "HelpIcon",
   inputs: [

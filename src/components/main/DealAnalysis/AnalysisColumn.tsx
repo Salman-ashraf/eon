@@ -41,7 +41,6 @@ const DetailsRow = styled.div`
   width: 100%;
   gap: 12px;
   justify-content: flex-start;
-  flex-wrap: wrap;
 
   @media (max-width: 991px) {
     max-width: 100%;
