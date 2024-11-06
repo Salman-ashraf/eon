@@ -1,4 +1,5 @@
 import { Builder } from "@builder.io/react";
+import theme1 from "@src/theme/_theme1.module.scss";
 import AiChatComponent from "./components/AiChatModule/AiChatComponent";
 import ArrowUpIcon from "./components/SVGIcons/ArrowUpIcon";
 import Avatar from "./components/mui/Avatar";
@@ -12,6 +13,7 @@ import CloseIcon from "./components/SVGIcons/CloseIcon";
 import Controls from "./components/Controls/Controls";
 import DealAnalysisTabs from "./components/DealAnalysisTabs/DealAnalysisTabs";
 import ExpandIcon from "./components/SVGIcons/ExpandIcon";
+import FinancingAssumptionsCard from "./components/FinancingAssumptions/FinancingAssumptionsCard";
 import Header from "./components/Header/Header";
 import HelpIcon from "./components/SVGIcons/HelpIcon";
 import HomeIcon from "./components/SVGIcons/HomeIcon";
@@ -33,13 +35,12 @@ import SqftIcon from "./components/SVGIcons/SqftIcon";
 import StarFilledIcon from "./components/SVGIcons/StarFilledIcon";
 import StarIcon from "./components/SVGIcons/StarIcon";
 import TrendAnalysis from "./components/TrendAnalysis/TrendAnalysis";
-import theme1 from "@src/theme/_theme1.module.scss";
+
 const colors = theme1;
 
 Builder.registerComponent(BackArrowIcon, {
   name: "BackArrowIcon",
 });
-
 Builder.register("editor.settings", {
   designTokens: {
     spacing: [
@@ -58,10 +59,10 @@ Builder.register("editor.settings", {
       { name: "Text Primary", value: colors.white },
       { name: "Text Secondary", value: colors.dark300 },
     ],
-
     // other design tokens
   },
 });
+
 Builder.registerComponent(HelpIcon, {
   name: "HelpIcon",
   inputs: [
@@ -223,4 +224,8 @@ Builder.registerComponent(AiChatComponent, {
 
 Builder.registerComponent(Header, {
   name: "Header",
+});
+
+Builder.registerComponent(FinancingAssumptionsCard, {
+  name: "FinancingAssumptionsCard",
 });

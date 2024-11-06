@@ -4,14 +4,12 @@ import PropertyOfferPage from "../../components/pages/PropertyOfferPage";
 import { Box } from "@mui/material";
 import backgroundImage from "@src/assets/Background-Image.png";
 import TrendAnalysis from "../../components/TrendAnalysis/TrendAnalysis";
-import InfoCardContainer from "../../components/InfoCard/InfoCardContainer";
-import BuildingInfoRow from "../../components/BuildingInfoRow/BuildingInfoRow";
-import PropertyDetailsMainPage from "../../components/PropertyDetails/PropertyDetailsMainPage";
 import Grid from "@mui/material/Grid2";
 import AiChatComponent from "../../components/AiChatModule/AiChatComponent";
 import FinancingAssumptionsRow from "@src/components/FinancingAssumptions/FinancingAssumptionsRow";
+import FiveYearPLContainer from "@src/components/FiveYearPL/FiveYearPLContainer";
 
-const Home5 = () => {
+const Home6 = () => {
   return (
     <Box
       sx={{
@@ -40,7 +38,7 @@ const Home5 = () => {
                 gap: "15px",
               }}
             >
-              <FinancingAssumptionsRow />
+              <FiveYearPLContainer />
             </Box>
           </Grid>
           <Grid size={2.5}>
@@ -52,4 +50,4 @@ const Home5 = () => {
   );
 };
 
-export default Home5;
+export default Home6;
