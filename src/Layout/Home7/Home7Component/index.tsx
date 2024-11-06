@@ -12,6 +12,9 @@ const Home7Component = () => {
       <Box m={4}>
         <PropertyFinancials />
       </Box>
+
+      <Box m={4}></Box>
+      <Box m={4}></Box>
     </>
   );
 };

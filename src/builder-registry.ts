@@ -22,6 +22,7 @@ import InfoIcon from "./components/SVGIcons/InfoIcon";
 import InternalRateReturn from "./components/InternalRateReturn/InternalRateReturn";
 import LocationIcon from "./components/SVGIcons/LocationIcon";
 import MinusIcon from "./components/SVGIcons/MinusIcon";
+import MoreVerticalIcon from "./components/SVGIcons/MoreVerticalIcon";
 import NotificationRingIcon from "./components/SVGIcons/NotificationRingIcon";
 import PercentageIcon from "./components/SVGIcons/PercentageIcon";
 import PlusIcon from "./components/SVGIcons/PlusIcon";
@@ -29,6 +30,7 @@ import ProfitIcon from "./components/SVGIcons/ProfitIcon";
 import PropertyDetailsMainPage from "./components/PropertyDetails/PropertyDetailsMainPage";
 import { PropertyFinancialCard } from "./components/page5/PropertyFinancials/PropertyFinancialCard";
 import PropertyOfferPage from "./components/pages/PropertyOfferPage";
+import RefreshIcon from "./components/SVGIcons/RefreshIcon";
 import RobotAiIcon from "./components/SVGIcons/RobotAiIcon";
 import SendIcon from "./components/SVGIcons/SendIcon";
 import ShareIcon from "./components/SVGIcons/ShareIcon";
@@ -233,4 +235,12 @@ Builder.registerComponent(FinancingAssumptionsCard, {
 
 Builder.registerComponent(PropertyFinancialCard, {
   name: "PropertyFinancialCard",
+});
+
+Builder.registerComponent(MoreVerticalIcon, {
+  name: "MoreVerticalIcon",
+});
+
+Builder.registerComponent(RefreshIcon, {
+  name: "RefreshIcon",
 });
