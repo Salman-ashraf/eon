@@ -14,6 +14,10 @@ import Home6Ai from "./Layout/Home6/Home6Ai";
 import Home6 from "./Layout/Home6";
 import Home6Component from "./Layout/Home6/Home6Component";
 
+import Home7Ai from "./Layout/Home7/Home7Ai";
+import Home7 from "./Layout/Home7";
+import Home7Component from "./Layout/Home7/Home7Component";
+
 function App() {
   return (
     <>
@@ -22,6 +26,7 @@ function App() {
         <Route path="/" element={<Editor />} />
         <Route path="/page" element={<Home />} />
         <Route path="/page/ai" element={<Home2 />} />
+
         <Route path="/page2" element={<Home4 />} />
         <Route path="/page2/ai" element={<Home3Ai />} />
         <Route path="/page2/component" element={<Home3 />} />
@@ -33,6 +38,10 @@ function App() {
         <Route path="/page4" element={<Home6 />} />
         <Route path="/page4/ai" element={<Home6Ai />} />
         <Route path="/page4/component" element={<Home6Component />} />
+
+        <Route path="/page5" element={<Home7 />} />
+        <Route path="/page5/ai" element={<Home7Ai />} />
+        <Route path="/page5/component" element={<Home7Component />} />
       </Routes>
     </>
   );

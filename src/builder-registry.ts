@@ -27,6 +27,7 @@ import PercentageIcon from "./components/SVGIcons/PercentageIcon";
 import PlusIcon from "./components/SVGIcons/PlusIcon";
 import ProfitIcon from "./components/SVGIcons/ProfitIcon";
 import PropertyDetailsMainPage from "./components/PropertyDetails/PropertyDetailsMainPage";
+import { PropertyFinancialCard } from "./components/page5/PropertyFinancials/PropertyFinancialCard";
 import PropertyOfferPage from "./components/pages/PropertyOfferPage";
 import RobotAiIcon from "./components/SVGIcons/RobotAiIcon";
 import SendIcon from "./components/SVGIcons/SendIcon";
@@ -228,4 +229,8 @@ Builder.registerComponent(Header, {
 
 Builder.registerComponent(FinancingAssumptionsCard, {
   name: "FinancingAssumptionsCard",
+});
+
+Builder.registerComponent(PropertyFinancialCard, {
+  name: "PropertyFinancialCard",
 });
