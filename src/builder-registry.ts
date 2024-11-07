@@ -23,6 +23,8 @@ import InternalRateReturn from "./components/InternalRateReturn/InternalRateRetu
 import LocationIcon from "./components/SVGIcons/LocationIcon";
 import MinusIcon from "./components/SVGIcons/MinusIcon";
 import MoreVerticalIcon from "./components/SVGIcons/MoreVerticalIcon";
+import MUIGraph from "./components/Graph/MUIGraph";
+import MUIGraph1 from "./components/Graph/MUIGraph1";
 import NotificationRingIcon from "./components/SVGIcons/NotificationRingIcon";
 import PercentageIcon from "./components/SVGIcons/PercentageIcon";
 import PlusIcon from "./components/SVGIcons/PlusIcon";
@@ -243,4 +245,12 @@ Builder.registerComponent(MoreVerticalIcon, {
 
 Builder.registerComponent(RefreshIcon, {
   name: "RefreshIcon",
+});
+
+Builder.registerComponent(MUIGraph, {
+  name: "MUIGraph",
+});
+
+Builder.registerComponent(MUIGraph1, {
+  name: "MUIGraph1",
 });

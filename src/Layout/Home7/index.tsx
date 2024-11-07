@@ -7,6 +7,8 @@ import TrendAnalysis from "../../components/TrendAnalysis/TrendAnalysis";
 import Grid from "@mui/material/Grid2";
 import AiChatComponent from "../../components/AiChatModule/AiChatComponent";
 import FiveYearPLContainer from "@src/components/FiveYearPL/FiveYearPLContainer";
+import PropertyFinancials from "@src/components/page5/PropertyFinancials/PropertyFinancials";
+import DemographicInsightsCard from "@src/components/page5/DemographicInsights/DemographicInsightsCard";
 
 const Home7 = () => {
   return (
@@ -31,13 +33,24 @@ const Home7 = () => {
             <Box
               sx={{
                 display: "flex",
-                justifyContent: "space-between",
+                flexDirection: "column",
                 width: "100%",
                 mt: "18px",
                 gap: "15px",
               }}
             >
-              <FiveYearPLContainer />
+              <PropertyFinancials />
+              <Box
+                sx={{
+                  display: "flex",
+                  width: "100%",
+                  justifyContent: "space-between",
+                  gap: "30px",
+                }}
+              >
+                <DemographicInsightsCard />
+                <DemographicInsightsCard />
+              </Box>
             </Box>
           </Grid>
           <Grid size={2.5}>

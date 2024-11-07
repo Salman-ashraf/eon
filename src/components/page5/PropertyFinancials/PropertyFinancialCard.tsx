@@ -86,7 +86,7 @@ const CardWrapper = styled(Box)`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 610px;
+  width: 100%;
 `;
 
 const Header = styled(Box)`

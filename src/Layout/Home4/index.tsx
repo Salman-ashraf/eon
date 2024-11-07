@@ -38,7 +38,7 @@ const Home4 = () => {
                   display: "flex",
                   width: "100%",
                   mt: "18px",
-                  justifyContent:'space-between',
+                  justifyContent: "space-between",
                 }}
               >
                 <FixFlipAnalysis />

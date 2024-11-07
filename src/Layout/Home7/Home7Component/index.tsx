@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import MUIGraph from "@src/components/Graph/MUIGraph";
 import MUIGraph1 from "@src/components/Graph/MUIGraph1";
+import DemographicInsightsCard from "@src/components/page5/DemographicInsights/DemographicInsightsCard";
 import PropertyFinancialCard from "@src/components/page5/PropertyFinancials/PropertyFinancialCard";
 import PropertyFinancials from "@src/components/page5/PropertyFinancials/PropertyFinancials";
 
@@ -19,7 +20,9 @@ const Home7Component = () => {
         <MUIGraph />
         <MUIGraph1 />
       </Box>
-      <Box m={4}></Box>
+      <Box m={4}>
+        <DemographicInsightsCard />
+      </Box>
     </>
   );
 };
